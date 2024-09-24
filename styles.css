@@ -11,7 +11,7 @@
 .main-content .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(95, 70, 70);
+    background-color: #9121ce;
     height: 80%;
     width: 100%;
 }
@@ -20,17 +20,17 @@
     position: fixed;
     left: 0;
     width: 200px;
-    height: 100%;
-    background-color: #12559c;
+    height: auto;
+    background-color: #401e52;
 }
 
 .sidebar header {
-    font-size: 21px;
+    font-size: 20px;
     font-style: oblique;
     text-align: center;
     text-decoration: underline;
     line-height: 60px;
-    background-color: blueviolet;
+    background-color: #401e52;
 }
 
 .sidebar ul a{
@@ -38,7 +38,7 @@
     height: 100px;
     width: 100px;
     line-height: 60px;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 10px;
 }
 
@@ -72,6 +72,7 @@ p {
 
 .footer {
     height: 100px;
-    background-color: grey;
+    background-color: #d590fa;
     bottom: 0px;
+    text-align: center;
 }
